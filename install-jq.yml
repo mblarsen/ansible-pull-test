@@ -1,0 +1,9 @@
+- name: install jq
+  host: all
+  become: yes
+
+  tasks:
+    - name: install jq
+      package:
+        name: jq
+        state: present
