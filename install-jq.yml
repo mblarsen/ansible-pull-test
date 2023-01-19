@@ -1,5 +1,5 @@
 - name: install jq
-  host: all
+  hosts: all
   become: yes
 
   tasks:
